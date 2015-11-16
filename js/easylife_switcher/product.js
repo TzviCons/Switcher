@@ -27,7 +27,7 @@ Easylife.Switcher = Class.create(Product.Config, {
     currentValues: {},
     rewritten: false,
     /**
-     * rewrite initialize to transform dorpdowns and support default configuration
+     * rewrite initialize to transform dropdowns and support default configuration
      * @param $super
      * @param config
      */
@@ -150,7 +150,7 @@ Easylife.Switcher = Class.create(Product.Config, {
         return labelClass;
     },
     /**
-     * ge the option text of the label
+     * get the option text of the label
      */
     getOptionText: function(elem, value, config){
         var text = $(elem).innerHTML;
